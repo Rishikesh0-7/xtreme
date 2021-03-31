@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xtreme</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.js"></script>  
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/animate.css/3.1.0/animate.css">
+</head>
+<body>
+    <nav class="navbar ml-10">
+        <h2 class="name"><span class="x">X</span>treme</h2>
+    </nav>
+    <section class="section" id="section">
+        <div class="des">
+            <h1 id="intro" class="animated animate__backInLeft">Xtreme is a discord bot with over 50+ commands..!</h1>
+            <a href="#about" ><button class="learn animated animate__backInRight">Learn more</button></a>
+        </div>
+    </section>
+
+    <section id="about" class="about-sec">
+        <div class="ab">
+            <img src="icon.png" class="icon" alt="">
+            <h1 class="about-name">Xtreme</h1>
+            <h1 class="prefix">_</h1>
+            
+            
+            <p class="about-des" data-aos-duration="3000">Xtreme is a discord bot developed by Rishikesh..It has over 50+ helpfull and fun commands all for free . </p>
+            <a target="_blank" href="https://discord.com/oauth2/authorize?client_id=784021298832998430&scope=bot&permissions=4294442359"><button class="about-btn" >Invite Xtreme</button></a>
+            <a target="_blank" href="https://discord.com/invite/SVWdQjXGag"><button class="about-btn">Join Support Server</button></a>
+            <a href="#clist"><button class="about-btn">Command List</button></a>
+            <a href="#rate"><button class="about-btn" >User Rating</button></a>
+        </div>
+    </section>
+    <script>
+        $(document).ready(function(){
+            $('.about-name').waypoint(function(direction){
+                $(".about-name").addClass("animated animate__rubberBand")
+            },{
+                offset:'400'
+            })
+            $('.icon').waypoint(function(direction){
+                $(".icon").addClass("animated animate__rubberBand")
+            },{
+                offset:'400'
+            })
+            $('.about-des').waypoint(function(direction){
+                $(".about-des").addClass("animated animate__jello")
+            },{
+                offset:'400'
+            })
+            $('.about-btn').waypoint(function(direction){
+                $(".about-btn").addClass("animated animate__swing")
+            },{
+                offset:'400'
+            })
+        })
+    </script>
+    <section>
+        <div class="help" id="clist">
+            <h1 class="about-name" style="margin-top: 100px;">Command List</h1>
+            <img class="line" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F794424363595464714.gif%3Fv%3D1&w=128&q=75" alt="">
+            <h1 class="about-name" style="margin-top: 120px; text-align: left;"> Help Commands</h1>
+            <table class="ctable">
+                <tr class="inp">
+                    <th>Usage</th>
+                    <th>Description</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_help commands</th>
+                    <th>To get help for other helpfull commands</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_help info</th>
+                    <th>To get help for information commands</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_help memes</th>
+                    <th>To get help for meme commands</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_help games</th>
+                    <th>To get help for game commands</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_help search</th>
+                    <th>To get help for search commands</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_help pokemon</th>
+                    <th>To get help for pokemon commands</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_help admin</th>
+                    <th>To get help for admin commands</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_help fun</th>
+                    <th>To get help for fun commands</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_help aki</th>
+                    <th>To get help for character guesser(akinator) commands</th>
+                </tr>
+            </table>
+            
+
+
+            <h1 class="about-name" style="margin-top: 120px; text-align: left;">Information commands</h1>
+            <table class="ctable">
+                <tr class="inp">
+                    <th>Usage</th>
+                    <th>Description</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_serverinfo</th>
+                    <th>Get information about the server</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_count members</th>
+                    <th>To get help for information commands</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_avatar</th>
+                    <th>To get or see your avatar</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_avatar (member id or mention)</th>
+                    <th>Get your information.</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_userinfo (mention or member id)</th>
+                    <th>Get information about mentioned user.</th>
+                </tr>
+            </table>
+
+            <h1 class="about-name" style="margin-top: 120px; text-align: left;">Meme commands</h1>
+            <table class="ctable">
+                <tr class="inp">
+                    <th>Usage</th>
+                    <th>Description</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_joke</th>
+                    <th>To get a text based meme .</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_meme</th>
+                    <th>To get image meme especially dank memes.</th>
+                </tr>
+            </table>
+
+            <h1 class="about-name" style="margin-top: 120px; text-align: left;">Game commands</h1>
+            <table class="ctable">
+                <tr class="inp">
+                    <th>Usage</th>
+                    <th>Description</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_tictac (mention)</th>
+                    <th>Challenge your opponent for a game of tic tac toe .</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_profile</th>
+                    <th>To get your profile data in tic-tac-toe.</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_lb</th>
+                    <th>To get the global leaderboard for tic-tac-toe .</th>
+                </tr>
+            </table>
+
+            <h1 class="about-name" style="margin-top: 120px; text-align: left;">Music commands</h1>
+            <table class="ctable">
+                <tr class="inp">
+                    <th>Usage</th>
+                    <th>Description</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_play (song name)</th>
+                    <th>Plays the song which you passed .</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_pause</th>
+                    <th>Pause the current song.</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_resume</th>
+                    <th>Resume the song which was paused .</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_stop</th>
+                    <th>Stops the current song .</th>
+                </tr>
+            </table>
+
+            <h1 class="about-name" style="margin-top: 120px; text-align: left;">Search commands</h1>
+            <table class="ctable">
+                <tr class="inp">
+                    <th>Usage</th>
+                    <th>Description</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt=""> _yt search (query)</th>
+                    <th>Search a youtube video . Included with - a youtube video.</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_yt data (query)</th>
+                    <th>Get the data youtube video you search like view , channel name</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt=""> _go search (query)</th>
+                    <th>Search on google . *Included with - a screenshot , a link browser</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_wiki search (query)</th>
+                    <th>Gives results from wikipedia..</th>
+                </tr>
+            </table>
+
+            <h1 class="about-name" style="margin-top: 120px; text-align: left;">Pokemon commands</h1>
+            <table class="ctable">
+                <tr class="inp">
+                    <th>Usage</th>
+                    <th>Description</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_pokemon (pokémon_name)</th>
+                    <th>Get pokémon data from pokédex</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_show (pokémon_name)</th>
+                    <th>Get pokémon image</th>
+                </tr>
+            </table>
+
+            <h1 class="about-name" style="margin-top: 120px; text-align: left;">Admin commands</h1>
+            <table class="ctable">
+                <tr class="inp">
+                    <th>Usage</th>
+                    <th>Description</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_welcome (welcome_channel) (welcome message)</th>
+                    <th>To set or update the settings for welcome channel and welcome message
+                        EXAMPLE:-
+                        _welcome (mention channel) (welcome message with #member to mention the member who joins this server)</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_left (leave_channel) (leave message)</th>
+                    <th>To set or update the settings for leave channel and leave message
+                        EXAMPLE:-
+                        _leave (mention channel) (leave message with #member to mention the member who leaves this server)</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_log (leave_channel)</th>
+                    <th>To set or update the channel for audit logs</th>
+                </tr>
+            </table>
+
+
+            <h1 class="about-name" style="margin-top: 120px; text-align: left;">Fun commands</h1>
+            <table class="ctable">
+                <tr class="inp">
+                    <th>Usage</th>
+                    <th>Description</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_kiss (mention)</th>
+                    <th>Kiss someone on discord virtually 😂 .</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_slap (mention)</th>
+                    <th>Slap someone.</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_kick (mention)</th>
+                    <th>Kick someone.</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_punch (mention)</th>
+                    <th>Punch someone someone.</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_kill (mention)</th>
+                    <th>Kill someone.</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_hug (mention)</th>
+                    <th>Hug someone.</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_thankyou (mention)</th>
+                    <th>Say thankyou to someone . someone.</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_sorry (mention)</th>
+                    <th>Say sorry to someone.</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_bite (mention)</th>
+                    <th>Bite someone.</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_eat (mention)</th>
+                    <th>Eat someone.</th>
+                </tr>
+            </table>
+
+            <h1 class="about-name" style="margin-top: 120px; text-align: left;">Akinator commands</h1>
+            <table class="ctable">
+                <tr class="inp">
+                    <th>Usage</th>
+                    <th>Description</th>
+                </tr>
+                <tr class="ans">
+                    <th><img class="arrow" src="https://discordservers.me/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F820549959413137429.gif%3Fv%3D1&w=128&q=75" alt="">_aki</th>
+                    <th>To start the game of akinator..</th>
+                </tr>
+            </table>
+        </div>
+    </section>  
+    <section id="rate" class="about-sec">
+        <div class="rating">
+            <h1 class="name" style="color: white; float: top;">User Rating</h1>
+            <h1 class="name" style="color: goldenrod; margin-top: 10%;">4.5 stars</h1>
+            <h1 class="fa fa-star fa-2x stars"></h1><h1 class="fa fa-star fa-2x stars"></h1> <h1 class="fa fa-star fa-2x stars"></h1> <h1 class="fa fa-star fa-2x stars"></h1> <h1 class="fa fa-star-half fa-2x stars"></h1>
+            
+        </div>
+    </section>
+</body>
+<script>
+    AOS.init();
+  </script>
+</html>
